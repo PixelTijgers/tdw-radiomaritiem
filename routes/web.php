@@ -22,6 +22,9 @@ Route::get('/disclaimer', function() {
 // Login route.
 Route::post('login', 'App\Http\Controllers\ChatsController@login');
 
+// Request route.
+Route::get('request', 'App\Http\Controllers\RequestController@index');
+
 // Message routes.
 Route::get('messages', 'App\Http\Controllers\ChatsController@fetchMessages');
 Route::post('messages', 'App\Http\Controllers\ChatsController@sendMessage');

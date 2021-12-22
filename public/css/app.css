@@ -31915,6 +31915,11 @@ h5 {
   font-family: "ModeratBold";
 }
 
+h3,
+h4 {
+  color: #E4032C;
+}
+
 p {
   color: #414A5A;
   font-family: "ModeratRegular";
@@ -31929,7 +31934,8 @@ a:hover {
   text-decoration: underline;
 }
 
-input {
+input,
+textarea {
   border: 1px solid #E1E1E1;
   border-radius: 5px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
@@ -31939,8 +31945,13 @@ input {
   width: 100%;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
   outline: none;
+}
+
+textarea {
+  height: 200px;
 }
 
 label {
