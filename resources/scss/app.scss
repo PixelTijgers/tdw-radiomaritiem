@@ -1,0 +1,22 @@
+// Import Tailwind assests.
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Import variables and default stylesheets.
+@import '_fonts';
+@import '_variables';
+@import '_default';
+
+// Import site stylesheets and includes.
+@import 'includes/header';
+@import 'includes/main';
+@import 'includes/aside';
+@import 'includes/footer';
+
+@import 'includes/login';
+@import 'includes/offline';
+
+// Import chat styles.
+@import 'chat/chatForm';
+@import 'chat/chatMessage';

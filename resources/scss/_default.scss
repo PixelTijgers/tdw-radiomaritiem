@@ -1,0 +1,72 @@
+// Body styles.
+body {
+    background: $color-bg-body;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+// Font styles.
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+    font-family: $font-head;
+}
+
+p {
+    color: $color-font-primary;
+    font-family: $font-base;
+}
+
+a {
+    color: $color-font-a;
+    transition: all .25s ease 0s;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+// Form styles.
+input {
+    border: 1px solid $color-border-form-input;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    display: flex;
+    padding: 7px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+label {
+    color: $color-font-primary;
+    display: flex;
+    font-family: $font-base;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+button {
+    background: $color-bg-btn;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    font-family: $font-head;
+    letter-spacing: .5px;
+    opacity: 1;
+    padding: 10px 25px;
+    transition: all .25s ease 0s;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+// Panel.
+.panel {
+    background: $color-bg-panel;
+    border-radius: 3px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    padding: 35px;
+}
