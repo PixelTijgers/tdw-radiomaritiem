@@ -28,9 +28,9 @@
 </head>
 <body>
 
-    <main>
+    <main class="mx-auto p-5 sm:max-w-sm md:max-w-md md:mt-14 md:p-0">
 
-        <div class="panel max-w-sm mx-auto mt-14">
+        <div class="panel">
 
             <figure class="flex mb-5">
 
