@@ -25,9 +25,9 @@
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
 </head>
 <body>
-<main class="countdown-clock" id="chat">
+<main class="mx-auto p-5 sm:max-w-sm md:max-w-md md:mt-14 md:p-0">
 
-    <div class="panel max-w-md mx-auto mt-14 text-center">
+    <div class="panel text-center">
 
         <figure class="flex mb-5">
 
@@ -35,9 +35,9 @@
 
         </figure>
 
-        <h1 class="text-7xl mb-5">27/01/2021</h1>
+        <h1 class="text-4xl md:text-7xl mb-5">27/01/2021</h1>
 
-        <p class="text-xl">Stuur <a href="#">nu</a> je favoriete verzoekplaat door!</p>
+        <p class="md:text-xl">Stuur <a href="#">nu</a> je favoriete verzoekplaat door!</p>
 
     </div>
 

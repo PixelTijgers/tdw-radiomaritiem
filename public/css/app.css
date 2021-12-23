@@ -31915,6 +31915,11 @@ h5 {
   font-family: "ModeratBold";
 }
 
+h1,
+h2 {
+  color: #414A5A;
+}
+
 h3,
 h4 {
   color: #E4032C;

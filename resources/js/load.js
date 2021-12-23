@@ -17,8 +17,8 @@ module.exports = {
 
     onDOMLoad()
     {
-        this.setOnePageNav();
-        this.setMobileNav();
+        //this.setOnePageNav();
+        //this.setMobileNav();
     },
 
     setOnePageNav()

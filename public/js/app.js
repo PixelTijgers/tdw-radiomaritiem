@@ -4143,75 +4143,7 @@ vue__WEBPACK_IMPORTED_MODULE_1__["default"].component('chat-form', (__webpack_re
 vue__WEBPACK_IMPORTED_MODULE_1__["default"].component('chat-messages', (__webpack_require__(/*! ./components/ChatMessages.vue */ "./resources/js/components/ChatMessages.vue")["default"])); // Import moment.
 
 vue__WEBPACK_IMPORTED_MODULE_1__["default"].use(__webpack_require__(/*! vue-moment */ "./node_modules/vue-moment/dist/vue-moment.js"));
-vue__WEBPACK_IMPORTED_MODULE_1__["default"].use((vue_chat_scroll__WEBPACK_IMPORTED_MODULE_0___default()));
-vue__WEBPACK_IMPORTED_MODULE_1__["default"].component('countdown-counter', {
-  template: "\n  \t<div>\n      <div v-show =\"statusType !== 'expired'\">\n        <div class=\"day\">\n          <span class=\"number\">{{ days }}</span>\n          <div class=\"format\">{{ wordString.day }}</div>\n        </div>\n        <div class=\"hour\">\n          <span class=\"number\">{{ hours }}</span>\n          <div class=\"format\">{{ wordString.hours }}</div>\n        </div>\n        <div class=\"min\">\n          <span class=\"number\">{{ minutes }}</span>\n          <div class=\"format\">{{ wordString.minutes }}</div>\n        </div>\n        <div class=\"sec\">\n          <span class=\"number\">{{ seconds }}</span>\n          <div class=\"format\">{{ wordString.seconds }}</div>\n        </div>\n      </div>\n      <div class=\"message\">{{ message }}</div>\n    </div>\n  ",
-  props: ['starttime', 'endtime', 'trans'],
-  data: function data() {
-    return {
-      timer: "",
-      wordString: {},
-      start: "",
-      end: "",
-      interval: "",
-      days: "",
-      minutes: "",
-      hours: "",
-      seconds: "",
-      message: "",
-      statusType: "",
-      statusText: ""
-    };
-  },
-  created: function created() {
-    this.wordString = JSON.parse(this.trans);
-  },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.start = new Date(this.starttime).getTime();
-    this.end = new Date(this.endtime).getTime(); // Update the count down every 1 second
-
-    this.timerCount(this.start, this.end);
-    this.interval = setInterval(function () {
-      _this.timerCount(_this.start, _this.end);
-    }, 1000);
-  },
-  methods: {
-    timerCount: function timerCount(start, end) {
-      // Get todays date and time
-      var now = new Date().getTime(); // Find the distance between now an the count down date
-
-      var distance = start - now;
-      var passTime = end - now;
-
-      if (distance < 0 && passTime < 0) {
-        this.message = this.wordString.expired;
-        this.statusType = "expired";
-        this.statusText = this.wordString.status.expired;
-        clearInterval(this.interval);
-        return;
-      } else if (distance < 0 && passTime > 0) {
-        this.calcTime(passTime);
-        this.message = this.wordString.running;
-        this.statusType = "running";
-        this.statusText = this.wordString.status.running;
-      } else if (distance > 0 && passTime > 0) {
-        this.calcTime(distance);
-        this.message = this.wordString.upcoming;
-        this.statusType = "upcoming";
-        this.statusText = this.wordString.status.upcoming;
-      }
-    },
-    calcTime: function calcTime(dist) {
-      // Time calculations for days, hours, minutes and seconds
-      this.days = Math.floor(dist / (1000 * 60 * 60 * 24));
-      this.hours = Math.floor(dist % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
-      this.minutes = Math.floor(dist % (1000 * 60 * 60) / (1000 * 60));
-      this.seconds = Math.floor(dist % (1000 * 60) / 1000);
-    }
-  }
-}); // Init Vue.
+vue__WEBPACK_IMPORTED_MODULE_1__["default"].use((vue_chat_scroll__WEBPACK_IMPORTED_MODULE_0___default())); // Init Vue.
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
   // Attach components to element.
@@ -4222,7 +4154,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
   },
   // Init on page load.
   created: function created() {
-    var _this2 = this;
+    var _this = this;
 
     // Return all current messages.
     this.fetchMessages(); // Listen to event. New messages will be loaded.
@@ -4230,7 +4162,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
     Echo.channel('chat').listen('MessageSent', function (e) {
       console.log(e);
 
-      _this2.messages.push({
+      _this.messages.push({
         message: e.message.message,
         user: e.user
       });
@@ -4239,10 +4171,10 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_1__["default"]({
   methods: {
     // Fetch all messages.
     fetchMessages: function fetchMessages() {
-      var _this3 = this;
+      var _this2 = this;
 
       axios.get('/messages').then(function (response) {
-        _this3.messages = response.data;
+        _this2.messages = response.data;
       });
     },
     // Insert message in the database.
@@ -4313,9 +4245,8 @@ module.exports = {
       }
     });
   },
-  onDOMLoad: function onDOMLoad() {
-    this.setOnePageNav();
-    this.setMobileNav();
+  onDOMLoad: function onDOMLoad() {//this.setOnePageNav();
+    //this.setMobileNav();
   },
   setOnePageNav: function setOnePageNav() {
     $('#nav').onePageNav({

@@ -14,9 +14,13 @@ h5 {
     font-family: $font-head;
 }
 
+h1,
+h2 {
+    color: $color-font-heading;
+}
 h3,
 h4 {
-    color: $color-font-heading;
+    color: $color-font-heading-alt;
 }
 
 p {
