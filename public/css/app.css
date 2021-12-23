@@ -32024,6 +32024,24 @@ a.button:hover {
   padding: 35px;
 }
 
+.embed-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .switch {
   display: inline-block;
   height: 24px;

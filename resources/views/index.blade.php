@@ -20,9 +20,11 @@
     <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <!-- Admin scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
 </head>
 <body>
 
@@ -31,6 +33,12 @@
     <div class="panel">
 
         @include('includes.header')
+
+        <div class="flex mt-10 embed-container">
+
+            <iframe src="https://player.castr.com/live_03b2bcc04d5f11eca71cabadb9da9eef" width="590" height="431" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+        </div>
 
         <div class="flex justify-center mt-16 mb-16">
 
@@ -52,17 +60,17 @@
 
                 <figure class="md:w-4/12 translate-right translate-top">
 
-                    <img src="{{ asset('img/bert-van-steenberghe.png') }}" alt="Port of antwerp" />
+                    <img src="{{ asset('img/bert-van-steenberghe.png') }}" alt="Foto van Bert Van Steenberghe" />
 
                 </figure>
 
             </div>
 
-            <div class="flex">
+            <div class="flex -mt-16">
 
                 <figure class="md:w-4/12 translate-left translate-top">
 
-                    <img src="{{ asset('img/michele-cuvelier.png') }}" alt="Port of antwerp" />
+                    <img src="{{ asset('img/michele-cuvelier.png') }}" alt="Foto van Michèle Cuvelier" />
 
                 </figure>
 
@@ -70,7 +78,79 @@
 
                     <h3 class="md:text-4xl mt-16 mb-5 text-right">Michèle Cuvelier</h3>
 
-                    <p class="md:text-lg text-right">Michèle is radiopresentatrice en bouwde een prachtige carrière op bij Studio Brussel, daar presenteert ze elke weekdag haar eigen programma Fanclub. Zelf is Michèle Beatles-fan van het eerste uur. .</p>
+                    <p class="md:text-lg text-right">Michèle is radiopresentatrice en bouwde een prachtige carrière op bij Studio Brussel, daar presenteert ze elke weekdag haar eigen programma Fanclub. Zelf is Michèle Beatles-fan van het eerste uur.</p>
+
+                </div>
+
+            </div>
+
+            <div class="flex -mt-16">
+
+                <div class="md:w-8/12">
+
+                    <h3 class="md:text-4xl mt-16 mb-5">Xavier Taveirne</h3>
+
+                    <p class="md:text-lg">Xavier is journalist, presentator, fervent twitteraar en slimste mens. Hij is vooral gekend van Het Journaal en Laat op Eén, toch blijft hij nog steeds gepassioneerd door radio. Naar eigen zeggen schiet hij pas in gang na 2 tassen koffie, dus die staan zeker voor hem klaar bij Radio Mariteam.</p>
+
+                </div>
+
+                <figure class="md:w-4/12 translate-right translate-top">
+
+                    <img src="{{ asset('img/xavier-taveirne.png') }}" alt="Foto van Xavier Taveirne" />
+
+                </figure>
+
+            </div>
+
+            <div class="flex -mt-16">
+
+                <figure class="md:w-4/12 translate-left translate-top">
+
+                    <img src="{{ asset('img/joris-brys.png') }}" alt="Foto van Joris Brys" />
+
+                </figure>
+
+                <div class="md:w-8/12">
+
+                    <h3 class="md:text-4xl mt-16 mb-5 text-right">Joris Brys</h3>
+
+                    <p class="md:text-lg text-right">Joris is radiopresentator en sportjournalist. Zijn stem kennen we van de voormiddagen op Studio Brussel, op tv komen we hem wel eens tegen op Sports Late Night. Hij zet bovendien een treffende Balthazar Boma-immitatie neer.</p>
+
+                </div>
+
+            </div>
+
+            <div class="flex -mt-16">
+
+                <div class="md:w-8/12">
+
+                    <h3 class="md:text-4xl mt-16 mb-5">Dorien Leyers</h3>
+
+                    <p class="md:text-lg">Dorien is presentatrice en moderator met een eindeloze passie voor events en entertainment. Ze presenteerde en modereerde onder andere voor BMW, NN, Umicore en dat doet ze door haar opleiding vloeiend in vier talen.</p>
+
+                </div>
+
+                <figure class="md:w-4/12 translate-right translate-top">
+
+                    <img src="{{ asset('img/dorien-leyers.png') }}" alt="Foto van Dorien Leyers" />
+
+                </figure>
+
+            </div>
+
+            <div class="flex -mt-16">
+
+                <figure class="md:w-4/12 translate-left translate-top">
+
+                    <img src="{{ asset('img/linde-merckpoel.png') }}" alt="Foto van Linde Merckpoel" />
+
+                </figure>
+
+                <div class="md:w-8/12">
+
+                    <h3 class="md:text-4xl mt-16 mb-5 text-right">Linde Merckpoel</h3>
+
+                    <p class="md:text-lg text-right">Linde Merckpoel was radiopresentatrice bij Studio Brussel. Ze waagde zich na een uitgebreide radiocarrière aan het vloggersschap en vlogt er inmiddels op los voor Eén. Intieme interviews zijn haar specialiteit en taboes doorbreekt ze als geen ander.</p>
 
                 </div>
 
