@@ -31902,8 +31902,15 @@ video {
 
 body {
   background: #E4032C;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body main {
+  flex: 1;
 }
 
 h1,

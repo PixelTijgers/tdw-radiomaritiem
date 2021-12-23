@@ -1,8 +1,15 @@
 // Body styles.
 body {
     background: $color-bg-body;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    main {
+        flex: 1;
+    }
 }
 // Font styles.
 h1,
