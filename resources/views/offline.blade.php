@@ -10,7 +10,7 @@
     <title>{{ config('app.name') }}</title>
     <meta name="description" content="Meta Beschrijving" />
     <meta name="keywords" content="Keywords" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
@@ -25,7 +25,7 @@
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
 </head>
 <body>
-<main class="mx-auto p-5 sm:max-w-sm md:max-w-md md:mt-14 md:p-0">
+<main class="mx-auto p-5 sm:w-4/5 sm:mt-10 md:max-w-md md:mt-14 md:p-0">
 
     <div class="panel text-center">
 
@@ -35,9 +35,9 @@
 
         </figure>
 
-        <h1 class="text-4xl md:text-7xl mb-5">27/01/2021</h1>
+        <h1 class="text-4xl mb-5 sm:text-6xl md:text-7xl">27/01/2021</h1>
 
-        <p class="md:text-xl">Stuur <a href="#">nu</a> je favoriete verzoekplaat door!</p>
+        <p class="sm:text-xl">Stuur <a href="/request">nu</a> je favoriete verzoekplaat door!</p>
 
     </div>
 

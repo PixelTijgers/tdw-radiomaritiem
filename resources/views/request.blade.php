@@ -23,65 +23,79 @@
     <!-- Admin scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-<main class="countdown-clock" id="chat">
+<main class="mx-auto p-5 mb-16 sm:w-4/5 md:max-w-screen-lg md:mt-14 md:p-0">
 
-    <div class="panel max-w-screen-lg mx-auto mt-14">
+    <div class="panel">
 
-        <h3 class="text-4xl mb-2">Request</h3>
+        <a href="{{ url()->previous() }}" class="button">Ga terug</a>
+
+        <h3 class="text-4xl mt-16 mb-2">Request</h3>
         <h4 class="text-xl mb-10">Stuur nu je favoriete verzoekplaat door!</h4>
 
         <form method="post" action="{{ url('/request') }}">
             @csrf
 
-            <div class="flex">
+            <div class="sm:flex">
 
-                <div class="md:w-1/2 md:mr-5">
+                <div class="sm:w-1/2 sm:mr-2 md:mr-5">
                     <label for="name">Naam:</label>
                     <input type="text" placeholder="Naam" name="name" id="name" required></input>
                 </div>
 
-                <div class="md:w-1/2 md:ml-5">
+                <div class="sm:w-1/2 sm:ml-2 md:ml-5">
                     <label for="name">Achternaam:</label>
                     <input type="text" placeholder="Achternaam" name="surname" id="surname" required></input>
                 </div>
 
             </div>
 
-            <div class="flex">
+            <div class="sm:flex">
 
-                <div class="md:w-1/2 md:mr-5">
+                <div class="sm:w-1/2 sm:mr-2 md:mr-5">
                     <label for="name">GSM nummer:</label>
                     <input type="text" placeholder="GSM nummer" name="mobile" id="mobile" required></input>
                 </div>
 
-                <div class="md:w-1/2 md:ml-5">
+                <div class="sm:w-1/2 sm:ml-2 md:ml-5">
                     <label for="name">E-mail adres:</label>
                     <input type="text" placeholder="E-mail adres" name="email" id="email" required></input>
                 </div>
 
             </div>
 
-            <div class="flex">
+            <div>
 
-                <div class="md:w-1/2 md:mr-5">
+                <div>
                     <label for="name">Artiest:</label>
                     <input type="text" placeholder="Artiest" name="artist" id="artist" required></input>
                 </div>
 
-                <div class="md:w-1/2 md:ml-5">
+                <div>
                     <label for="name">Titel:</label>
                     <input type="text" placeholder="Titel" name="song" id="song" required></input>
                 </div>
 
             </div>
 
-            <div class="flex">
+            <div>
 
-                <div class="md:w-full">
+                <div>
                     <label for="name">Waarom vraag je dit nummer aan?:</label>
                     <textarea placeholder="De reden dat ik dit nummer aanvraag is ..." name="artist" id="artist" required></textarea>
+                </div>
+
+                <div class="flex items-center">
+
+                    <label class="switch mb-0 mr-3" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                    </label>
+
+                    <div>Ik geef toestemming dat MediaMixer mij opbelt [...]</div>
+
                 </div>
 
             </div>

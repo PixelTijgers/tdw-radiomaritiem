@@ -10,7 +10,7 @@
     <title>{{ config('app.name') }}</title>
     <meta name="description" content="Meta Beschrijving" />
     <meta name="keywords" content="Keywords" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
@@ -28,7 +28,7 @@
 </head>
 <body>
 
-    <main class="mx-auto p-5 sm:max-w-sm md:max-w-md md:mt-14 md:p-0">
+    <main class="mx-auto p-5 sm:w-4/5 sm:mt-10 md:max-w-md md:mt-14 md:p-0">
 
         <div class="panel">
 

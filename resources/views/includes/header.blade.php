@@ -1,63 +1,34 @@
-<nav>
-
-    <div>
-
-        <figure>
-
-            <img
-                class="dp-150"
-                src="{{ asset('img/dp-150-years.svg') }}"
-                alt="Logo: Degroof Petercam 150 Years"
-            />
-
-        </figure>
-
-        <a href="#" id="toggle"><i class="fas fa-bars"></i></a>
-
-    </div>
-
-    <ul id="mobileNav">
-        <li><a href="#home">Home</a> </li>
-        <li><a href="#request">Request</a> </li>
-        <li><a href="#bio">Bio</a> </li>
-        <li><a href="#previous-editions">Previous editions</a> </li>
-
-    </ul>
-
-</nav>
-
 <header>
 
-    <div class="content grid grid-cols-12">
+    <div class="flex">
 
-        <figure class="col-start-2 col-span-1">
+        <div class="w-3/12">
 
-            <img
-                class="dp-onair"
-                src="{{ asset('img/DPonAir.svg') }}"
-                alt="Logo: DPonAir"
-            />
+            <figure>
 
-        </figure>
+                <img src="{{ asset('img/logo-radio-mariteam.png') }}" alt="Logo Radio Mariteam" />
 
-        <ul class="navigation col-start-3 col-span-7" id="nav">
+            </figure>
 
-            <li><a href="#home">Home</a> </li>
-            <li><a href="#request">Request</a> </li>
-            <li><a href="#bio">Bio</a> </li>
-            <li><a href="#previous-editions">Previous editions</a> </li>
+        </div>
 
-        </ul>
+        <div class="w-9/12">
 
-        <figure class="col-start-10 col-span-2">
+            <nav class="h-full">
 
-            <img
-                class="dp-150"
-                src="{{ asset('img/dp-150-years.svg') }}"
-                alt="Logo: Degroof Petercam 150 Years"
-            />
+                <ul class="flex h-full justify-end items-end">
 
-        </figure>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#" target="_blank">Plaatje aanvragen</a></li>
+                    <li><a href="#">Hosts</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="mailto:help@radiomariteam.be">Help?</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
 
     </div>
 

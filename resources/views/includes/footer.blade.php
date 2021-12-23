@@ -1,8 +1,8 @@
-<footer class="mt-3">
+<footer>
 
-    <div class="grid grid-cols-1">
+    <div class="text-center text-sm	 py-3">
 
-        <p>&#169 Copyright {{ date('Y') }}, {{ env('APP_NAME') }} | <a href="/disclaimer">Disclaimer</a></p>
+        <p>&#169 {{ date('Y') }}, {{ env('APP_NAME') }} | <a href="/disclaimer">Disclaimer</a></p>
 
     </div>
 
