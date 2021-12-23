@@ -16,12 +16,12 @@
 
             <nav class="h-full">
 
-                <ul class="flex h-full justify-end items-end">
+                <ul class="flex h-full justify-end items-end" id="nav-desktop">
 
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#" target="_blank">Plaatje aanvragen</a></li>
-                    <li><a href="#">Hosts</a></li>
-                    <li><a href="#">Info</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#request" target="_blank">Plaatje aanvragen</a></li>
+                    <li><a href="#hosts">Hosts</a></li>
+                    <li><a href="#info">Info</a></li>
                     <li><a href="mailto:help@radiomariteam.be">Help?</a></li>
 
                 </ul>

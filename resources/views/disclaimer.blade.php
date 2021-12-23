@@ -20,72 +20,41 @@
     <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link href="//db.onlinewebfonts.com/c/247337a1c1af6633c9ed10e68a850825?family=RomainBPTextRegular" rel="stylesheet" type="text/css"/>
     <!-- Admin scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/vendor/jquery.nav.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
 
-<main class="grid grid-cols-12 disclaimer">
+<main class="mx-auto p-5 mb-16 sm:w-4/5 md:max-w-screen-lg md:mt-14 md:p-0">
 
-    <div class="col-span-12 lg:col-start-3 lg:col-span-8 mt-10">
+    <div class="panel">
 
-        <div class="bg-white shadow-md overflow-hidden login-container mx-7">
+        <a href="{{ url()->previous() }}" class="button">Ga terug</a>
 
-            <div class="p-8">
+        <h3 class="md:mt-16 md:mb-3 md:text-5xl">Disclaimer</h3>
+        <p>Laatste update: 23 december 2021</p>
 
-                <a href="{{ url()->previous() }}">Go Back</a>
+        <h4 class="md:mt-5 md:mb-3 md:text-3xl">Interpretaties en definities</h4>
 
-                <h3 class="block mt-1 text-lg leading-tight font-medium text-black mb-3">Disclaimer</h3>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Interpretaties</h4>
 
-                <p>Last updated: April 27, 2021</p>
-                <h3>Interpretation and Definitions</h3>
-                <h3>Interpretation</h3>
-                <p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
-                    The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-                <h3>Definitions</h3>
-                <p>For the purposes of this Disclaimer:</p>
-                <ul>
-                    <li><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Disclaimer) refers to Degroof Petercam, Nijverheidsstraat 44, 1040 Brussel.</li>
-                    <li><strong>Service</strong> refers to the Website.</li>
-                    <li><strong>You</strong> means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
-                    <li><strong>Website</strong> refers to Degroof Petercam On Air, accessible from <a href="https://www.dponair.com/" rel="external nofollow noopener" target="_blank">https://www.dponair.com/</a></li>
-                </ul>
-                <h3>Disclaimer</h3>
-                <p>The information contained on the Service is for general information purposes only.</p>
-                <p>The Company assumes no responsibility for errors or omissions in the contents of the Service.</p>
-                <p>In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.</p>
-                <p>The Company does not warrant that the Service is free of viruses or other harmful components.</p>
-                <h3>External Links Disclaimer</h3>
-                <p>The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.</p>
-                <p>Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.</p>
-                <h3>Errors and Omissions Disclaimer</h3>
-                <p>The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to insure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service.</p>
-                <p>The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.</p>
-                <h3>Fair Use Disclaimer</h3>
-                <p>The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research.</p>
-                <p>The Company believes this constitutes a &quot;fair use&quot; of any such copyrighted material as provided for in section 107 of the United States Copyright law.</p>
-                <p>If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.</p>
-                <h3>Views Expressed Disclaimer</h3>
-                <p>The Service may contain views and opinions which are those of the authors and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company.</p>
-                <p>Comments published by users are their sole responsibility and the users will take full responsibility, liability and blame for any libel or litigation that results from something written in or as a direct result of something written in a comment. The Company is not liable for any comment published by users and reserve the right to delete any comment for any reason whatsoever.</p>
-                <h3>No Responsibility Disclaimer</h3>
-                <p>The information on the Service is provided with the understanding that the Company is not herein engaged in rendering legal, accounting, tax, or other professional advice and services. As such, it should not be used as a substitute for consultation with professional accounting, tax, legal or other competent advisers.</p>
-                <p>In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.</p>
-                <h3>&quot;Use at Your Own Risk&quot; Disclaimer</h3>
-                <p>All information in the Service is provided &quot;as is&quot;, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.</p>
-                <p>The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages.</p>
-                <h3>Contact Us</h3>
-                <p>If you have any questions about this Disclaimer, You can contact Us:</p>
-                <ul>
-                    <li>By phone number: +32 2 287 91 11</li>
-                </ul>
+            <p>Etiam id mauris semper, ultrices eros vel, consectetur nunc. Proin elementum ipsum id faucibus sollicitudin. Nullam nec gravida nibh. Nullam fringilla et turpis eu tincidunt. Cras convallis sapien nec ipsum ultricies, in imperdiet ex pulvinar. Praesent commodo metus vel quam porta, eu feugiat orci molestie. Nullam volutpat turpis eget velit semper, at vulputate leo sollicitudin.</p>
 
-            </div>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Disclaimer</h4>
 
-        </div>
+            <p>Vivamus dapibus ante sit amet mauris ultricies mollis. Sed urna nisi, placerat in libero vel, rutrum elementum ipsum. Donec maximus ipsum suscipit tortor auctor fringilla. Vestibulum et mattis nibh. In vitae leo ligula. Donec ullamcorper egestas condimentum. Integer eu leo ut eros sagittis volutpat tristique sed enim. Vestibulum ut nisl sit amet urna scelerisque dictum sed id erat. Fusce nec justo ornare, egestas lacus mollis, pretium erat. Pellentesque ut hendrerit ex.</p>
+
+            <p>Nulla nunc lorem, maximus eu venenatis eget, dictum suscipit massa. Duis vitae suscipit arcu, a porta lorem. Nulla consequat sem dui, quis fringilla magna mattis in. Suspendisse suscipit pulvinar leo non venenatis. Nulla vel dignissim ligula. Vivamus at arcu urna. Aliquam quis iaculis lorem, at vehicula tellus. In congue auctor neque, non tincidunt neque lobortis sit amet.</p>
+
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Externe links disclaimer</h4>
+
+            <p>Duis non dui ac tortor ultrices eleifend eu eget diam. Nunc ultrices convallis euismod. Nulla tristique odio sem, vitae consequat orci dictum ac. Morbi dictum varius odio, eget cursus dolor porta sit amet. Vivamus in tellus diam. Quisque dapibus gravida finibus. Quisque sit amet hendrerit diam. Donec lacinia eget orci pellentesque euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras suscipit est ut porttitor vestibulum. Curabitur a finibus magna. Nullam scelerisque at lacus vitae pulvinar. Maecenas diam sem, dictum non enim eu, viverra iaculis eros.</p>
+
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Contact</h4>
+
+            <p>Nunc venenatis, sem nec porttitor dictum, est velit interdum elit, vel aliquam urna metus in ante. Nulla eget leo sit amet orci porttitor mattis lobortis ac velit. Aenean pulvinar suscipit nunc id ornare. Quisque vehicula tempus tellus, id convallis ex. Donec pretium, massa at tempus iaculis, ipsum purus malesuada nunc, et consequat sem mauris vel libero. Nunc vehicula mollis volutpat. Nullam facilisis diam a feugiat dignissim. Fusce hendrerit rhoncus lectus non tincidunt.</p>
+
+            <a class="flex mt-5" href="mailto:info@radiomariteam.be">Contacteer ons</a>
 
     </div>
 

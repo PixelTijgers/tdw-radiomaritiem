@@ -12,13 +12,14 @@ import Vue from 'vue'
 import VueChatScroll from 'vue-chat-scroll';
 
 // Set components.
-Vue.component('chat-form', require('./components/ChatForm.vue').default);
-Vue.component('chat-messages', require('./components/ChatMessages.vue').default);
+//Vue.component('chat-form', require('./components/ChatForm.vue').default);
+//Vue.component('chat-messages', require('./components/ChatMessages.vue').default);
 
 // Import moment.
-Vue.use(require('vue-moment'));
-Vue.use(VueChatScroll);
+//Vue.use(require('vue-moment'));
+//Vue.use(VueChatScroll);
 
+/*
 // Init Vue.
 const app = new Vue({
 
@@ -66,3 +67,4 @@ const app = new Vue({
         }
     },
 });
+*/

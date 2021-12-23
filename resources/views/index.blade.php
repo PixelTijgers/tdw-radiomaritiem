@@ -20,11 +20,10 @@
     <link rel="manifest" href="{{ asset('favicon/site.webmanifest') }}">
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <!-- Admin scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
-    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <script src="{{ asset('js/vendor/jquery.nav.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
 
@@ -34,19 +33,19 @@
 
         @include('includes.header')
 
-        <div class="flex mt-10 embed-container">
+        <div class="flex mt-10 embed-container" id="home">
 
             <iframe src="https://player.castr.com/live_03b2bcc04d5f11eca71cabadb9da9eef" width="590" height="431" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
         </div>
 
-        <div class="flex justify-center mt-16 mb-16">
+        <div class="flex justify-center mt-16 mb-16" id="request">
 
             <a href="#" class="button" target="_blank">Plaatje aanvragen</a>
 
         </div>
 
-        <div class="flex flex-col">
+        <div class="flex flex-col" id="hosts">
 
             <div class="flex">
 
@@ -158,7 +157,7 @@
 
         </div>
 
-        <div class="flex flex-col">
+        <div class="flex flex-col" id="info">
 
             <figure class="translate-left image-full">
 

@@ -17,13 +17,13 @@ module.exports = {
 
     onDOMLoad()
     {
-        //this.setOnePageNav();
+        this.setOnePageNav();
         //this.setMobileNav();
     },
 
     setOnePageNav()
     {
-        $('#nav').onePageNav({
+        $('#nav-desktop').onePageNav({
             currentClass: 'current',
             changeHash: false,
             scrollSpeed: 750,
