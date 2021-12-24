@@ -1,4 +1,4 @@
-<div class="flex flex-col justify-center mt-10 mb-10 mb:mt-16 mb:mb-16" id="request">
+<div class="flex flex-col justify-center pt-10 pb-10" id="request">
 
     <div class="embed-container">
 

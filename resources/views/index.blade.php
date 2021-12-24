@@ -40,9 +40,9 @@
 
         @include('includes.request')
 
-        @include('includes.hosts')
-
         @include('includes.info')
+
+        @include('includes.hosts')
 
         <div class="scrollTop shadow-lg flex items-center justify-center">
             <span><a href="#"><i class="fas fa-angle-double-up"></i></a></span>
