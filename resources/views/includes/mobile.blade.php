@@ -15,7 +15,7 @@
     <ul id="mobileNav">
 
         <li><a href="#home">Home</a></li>
-        <li><a href="#request" target="_blank">Plaatje aanvragen</a></li>
+        <li><a href="https://www.videoask.com/f7c9vext7" target="_blank">Plaatje aanvragen</a></li>
         <li><a href="#hosts">Hosts</a></li>
         <li><a href="#info">Info</a></li>
         <li><a href="mailto:help@radiomariteam.be">Help?</a></li>
