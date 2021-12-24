@@ -1,6 +1,6 @@
 <header>
 
-    <div class="flex">
+    <div class="hidden md:flex">
 
         <div class="w-3/12">
 
