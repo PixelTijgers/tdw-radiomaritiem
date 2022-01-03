@@ -28,7 +28,14 @@ class ChatsController extends Controller
      */
     public function index()
     {
-        return view('index');
+        // Date and time of the stream.
+        $streamDate = \Carbon\Carbon::parse(env('STREAM_DATE'))->toDateTimeString();
+
+        // Check if the stream should be online.
+        if($streamDate > \Carbon\Carbon::now()->toDateTimeString())
+            return view('offline');
+        else
+            return view('index');
 
         // Date and time of the stream.
         $streamDate = \Carbon\Carbon::parse(env('STREAM_DATE'))->toDateTimeString();

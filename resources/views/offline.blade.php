@@ -37,7 +37,7 @@
 
         <h1 class="text-4xl mb-5 sm:text-6xl md:text-7xl">27/01/2021</h1>
 
-        <p class="sm:text-xl">Stuur <a href="/request">nu</a> je favoriete verzoekplaat door!</p>
+        <p class="sm:text-xl">Stuur <a href="https://www.videoask.com/f7c9vext7" target="_blank">nu</a> je favoriete verzoekplaat door!</p>
 
     </div>
 
