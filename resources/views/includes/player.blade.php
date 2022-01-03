@@ -6,7 +6,7 @@
 </div>
 -->
 
-<figure class="flex mb-5 mt-5 md:mt-10 md:mb-10">
+<figure class="flex mb-5 mt-5 md:mt-10 md:mb-10" id="home">
 
     <img src="{{ asset('img/coming-soon.png') }}" alt="Coming soon: Radio Mariteam. Op 27 januari 2022." />
 
