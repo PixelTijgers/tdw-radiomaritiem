@@ -32,27 +32,35 @@
         <a href="{{ url()->previous() }}" class="button">Ga terug</a>
 
         <h3 class="md:mt-16 md:mb-3 md:text-5xl">Disclaimer</h3>
-        <p>Laatste update: 23 december 2021</p>
+        <p>Laatste update: 4 januari 2022</p>
 
-        <h4 class="md:mt-5 md:mb-3 md:text-3xl">Interpretaties en definities</h4>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Privacy policy voor Port of Antwerpen, eigenaar van Radio Mariteam</h4>
 
-        <h4 class="md:mt-5 md:mb-3 md:text-xl">Interpretaties</h4>
+            <p>Het waarborgen van de privacy van bezoekers van Radio Mariteam is een belangrijke taak voor ons. Daarom beschrijven we in onze privacy policy welke informatie we verzamelen en hoe we deze informatie gebruiken.</p>
 
-            <p>Etiam id mauris semper, ultrices eros vel, consectetur nunc. Proin elementum ipsum id faucibus sollicitudin. Nullam nec gravida nibh. Nullam fringilla et turpis eu tincidunt. Cras convallis sapien nec ipsum ultricies, in imperdiet ex pulvinar. Praesent commodo metus vel quam porta, eu feugiat orci molestie. Nullam volutpat turpis eget velit semper, at vulputate leo sollicitudin.</p>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Toestemming</h4>
 
-        <h4 class="md:mt-5 md:mb-3 md:text-xl">Disclaimer</h4>
+            <p>Door de informatie en de diensten op Radio Mariteam te gebruiken, gaat u akkoord met onze privacy policy en de voorwaarden die wij hierin hebben opgenomen.</p>
 
-            <p>Vivamus dapibus ante sit amet mauris ultricies mollis. Sed urna nisi, placerat in libero vel, rutrum elementum ipsum. Donec maximus ipsum suscipit tortor auctor fringilla. Vestibulum et mattis nibh. In vitae leo ligula. Donec ullamcorper egestas condimentum. Integer eu leo ut eros sagittis volutpat tristique sed enim. Vestibulum ut nisl sit amet urna scelerisque dictum sed id erat. Fusce nec justo ornare, egestas lacus mollis, pretium erat. Pellentesque ut hendrerit ex.</p>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Vragen</h4>
 
-            <p>Nulla nunc lorem, maximus eu venenatis eget, dictum suscipit massa. Duis vitae suscipit arcu, a porta lorem. Nulla consequat sem dui, quis fringilla magna mattis in. Suspendisse suscipit pulvinar leo non venenatis. Nulla vel dignissim ligula. Vivamus at arcu urna. Aliquam quis iaculis lorem, at vehicula tellus. In congue auctor neque, non tincidunt neque lobortis sit amet.</p>
+            <p>Als u meer informatie wilt ontvangen, of vragen hebt over de privacy policy van Port of Antwerpen en specifiek Radio Mariteam, kun u ons benaderen via e-mail. Ons e-mailadres is <a href="mailto:help@radiomariteam.be">info@radiomariteam.be</a>.</p>
 
-        <h4 class="md:mt-5 md:mb-3 md:text-xl">Externe links disclaimer</h4>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Gebruik van cookies</h4>
 
-            <p>Duis non dui ac tortor ultrices eleifend eu eget diam. Nunc ultrices convallis euismod. Nulla tristique odio sem, vitae consequat orci dictum ac. Morbi dictum varius odio, eget cursus dolor porta sit amet. Vivamus in tellus diam. Quisque dapibus gravida finibus. Quisque sit amet hendrerit diam. Donec lacinia eget orci pellentesque euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras suscipit est ut porttitor vestibulum. Curabitur a finibus magna. Nullam scelerisque at lacus vitae pulvinar. Maecenas diam sem, dictum non enim eu, viverra iaculis eros.</p>
+            <p>Radio Mariteam plaatst cookies bij bezoekers. Dat doen we om informatie te verzamelen over de pagina’s die gebruikers op onze website bezoeken, om bij te houden hoe vaak bezoekers terug komen en om te zien welke pagina’s het goed doen op de website. Ook houden we bij welke informatie de browser deelt.</p>
+
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Cookies uitschakelen</h4>
+
+            <p>U kunt er voor kiezen om cookies uit te schakelen. Dat doet u door gebruik te maken de mogelijkheden van uw browser. U vindt meer informatie over deze mogelijkheden op de website van de aanbieder van uw browser.</p>
+
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Cookies van derde partijen</h4>
+
+            <p>Het is mogelijk dat derde partijen, zoals Google, op onze website adverteren of dat wij gebruik maken van een andere dienst. Daarvoor plaatsen deze derde partijen in sommige gevallen cookies. Deze cookies zijn niet door Radio Mariteam te beïnvloeden.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Contact</h4>
 
-            <p>Nunc venenatis, sem nec porttitor dictum, est velit interdum elit, vel aliquam urna metus in ante. Nulla eget leo sit amet orci porttitor mattis lobortis ac velit. Aenean pulvinar suscipit nunc id ornare. Quisque vehicula tempus tellus, id convallis ex. Donec pretium, massa at tempus iaculis, ipsum purus malesuada nunc, et consequat sem mauris vel libero. Nunc vehicula mollis volutpat. Nullam facilisis diam a feugiat dignissim. Fusce hendrerit rhoncus lectus non tincidunt.</p>
+            <p>Voor specifieke vragen kun je ook contact opnemen.</p>
 
             <a class="flex mt-5" href="mailto:info@radiomariteam.be">Contacteer ons</a>
 
