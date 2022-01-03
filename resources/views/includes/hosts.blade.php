@@ -12,7 +12,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Bert Van Steenberghe</h3>
 
-            <p class="text-base lg:text-lg text-right lg:text-left">Bert is radiopresentator bij Studio Brussel, hij voorziet bovendien allerlei Eén-programma’s van zijn warme stem. Wanner Bert DJ’t, bekleedt hij de line up onder de naam “rozeferrari”.</p>
+            <p class="text-base lg:text-lg text-right lg:text-left">Bert is radiopresentator bij Studio Brussel. Hij doet ook voice-over-werk voor Eén. Hij heeft uitgebreide ervaring met bedrijfsradio en zal dus ongetwijfeld uitblinken tijdens de uitzending van Radio Mariteam.</p>
 
         </div>
 
@@ -31,7 +31,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Michèle Cuvelier</h3>
 
-            <p class="lg:text-lg lg:text-right">Michèle is radiopresentatrice en bouwde een prachtige carrière op bij Studio Brussel, daar presenteert ze elke weekdag haar eigen programma Fanclub. Zelf is Michèle Beatles-fan van het eerste uur.</p>
+            <p class="lg:text-lg lg:text-right">Michèle is radiopresentatrice bij Studio Brussel. Ze nam jaren het ochtendblok voor haar rekening, maar presenteert inmiddels elke weekdag haar eigen programma Fanclub. Recent maakte ze de sprong naar televisie en presenteerde ze De tijdloze op Canvas.</p>
 
         </div>
 
@@ -49,7 +49,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Xavier Taveirne</h3>
 
-            <p class="lg:text-lg text-right lg:text-left">Xavier is journalist, presentator, fervent twitteraar en slimste mens. Hij is vooral gekend van Het Journaal en Laat op Eén, toch blijft hij nog steeds gepassioneerd door radio. Naar eigen zeggen schiet hij pas in gang na 2 tassen koffie, dus die staan zeker voor hem klaar bij Radio Mariteam.</p>
+            <p class="lg:text-lg text-right lg:text-left">Xavier is journalist, presentator, nieuwslezer en slimste mens. Hij werkte als radiopresentator voor Radio 1 en Radio 2, maar is vooral gekend van Het Journaal en Laat op Eén. Nochtans is hij naar eigen zeggen “voor altijd van de radio”, hij voegt het woord bij de daad als radiohost bij Radio Mariteam.</p>
 
         </div>
 
@@ -67,7 +67,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Joris Brys</h3>
 
-            <p class="lg:text-lg lg:text-right">Joris is radiopresentator en sportjournalist. Zijn stem kennen we van de voormiddagen op Studio Brussel, op tv komen we hem wel eens tegen op Sports Late Night. Hij zet bovendien een treffende Balthazar Boma-immitatie neer.</p>
+            <p class="lg:text-lg lg:text-right">Joris is radiopresentator en sportjournalist. Hij werkte voor VIER en Play Sports, maar is nu vooral actief als radiohost voor Studio Brussel. Hij presenteert daar elke voormiddag van de werkweek.</p>
 
         </div>
 
@@ -103,7 +103,43 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Linde Merckpoel</h3>
 
-            <p class="lg:text-lg lg:text-right">Linde Merckpoel was radiopresentatrice bij Studio Brussel. Ze waagde zich na een uitgebreide radiocarrière aan het vloggersschap en vlogt er inmiddels op los voor Eén. Intieme interviews zijn haar specialiteit en taboes doorbreekt ze als geen ander.</p>
+            <p class="lg:text-lg lg:text-right">Linde Merckpoel was radiopresentatrice bij Studio Brussel. Ze was jarenlang actief voor de zender en presenteerde talloze programma’s. Ze waagde zich na een uitgebreide radiocarrière aan het vloggersschap. Na haar wekelijkse segment Linde Vlogt voor Studio Brussel, maakt ze momenteel vlogs voor Eén. Voor Radio Mariteam gaat ze op pad als vliegende reporter.</p>
+
+        </div>
+
+    </div>
+
+    <div class="lg:flex -mt-16 flex-row-reverse">
+
+        <figure class="md:flex md:justify-end lg:w-4/12 lg:translate-top translate-right">
+
+            <img class="md:w-8/12 lg:w-full" src="{{ asset('img/ine-beyen.png') }}" alt="Foto van Ine Beyen" />
+
+        </figure>
+
+        <div class="lg:w-8/12">
+
+            <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Ine Beyen</h3>
+
+            <p class="text-base lg:text-lg text-right lg:text-left">Ine Beyen is ex-profwielrenster en bleef ook na haar carrière vertoeven in de sportwereld. Ze vond haar weg naar het maken van videoreportages, zowel voor online platforms als voor de televisie. Maar telkens met een link òf een knipoog naar de sport. Bij het grote publiek werd ze bekend door haar videorubriek in het populaire Eén programma: Vive le Vélo! Voor Radio Mariteam is Ine fietsreporter: ze volgt het peloton tussen Antwerpen en Brugge.</p>
+
+        </div>
+
+    </div>
+
+    <div class="lg:flex lg:-mt-16">
+
+        <figure class="lg:w-4/12 translate-left lg:translate-top">
+
+            <img class="md:w-8/12 lg:w-full" src="{{ asset('img/nico-mattan.png') }}" alt="Foto van Nico Mattan" />
+
+        </figure>
+
+        <div class="lg:w-8/12">
+
+            <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Nico Mattan</h3>
+
+            <p class="lg:text-lg lg:text-right">Nico Mattan is ex-profwielrenner en bleef actief in de wielerwereld als ploegleider en adviseur. Zijn carrière bracht hem van het beklimmen van de Kwaremont naar het ambassadeurschap van het Kwaremontbier. Tijdens de uitzending van Radio Mariteam trekt Nico er met zijn expertise op uit en volgt hij het fietserspeloton tussen Brugge en Antwerpen.</p>
 
         </div>
 
