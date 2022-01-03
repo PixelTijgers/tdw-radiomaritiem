@@ -12,7 +12,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Bert Van Steenberghe</h3>
 
-            <p class="text-base lg:text-lg text-right lg:text-left">Bert is radiopresentator bij Studio Brussel. Hij doet ook voice-over-werk voor Eén. Hij heeft uitgebreide ervaring met bedrijfsradio en zal dus ongetwijfeld uitblinken tijdens de uitzending van Radio Mariteam.</p>
+            <p class="text-base lg:text-lg text-right lg:text-left">Ook Bert is radiopresentator bij Studio Brussel. Hij kan z’n kennis en passie voor muziek ook kwijt als DJ. Zijn stem leent hij dan weer regelmatig uit voor spots en aankondigingen op VRT. Bert is niet zomaar een presentator, meer een radiomaker.</p>
 
         </div>
 
@@ -31,7 +31,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Michèle Cuvelier</h3>
 
-            <p class="lg:text-lg lg:text-right">Michèle is radiopresentatrice bij Studio Brussel. Ze nam jaren het ochtendblok voor haar rekening, maar presenteert inmiddels elke weekdag haar eigen programma Fanclub. Recent maakte ze de sprong naar televisie en presenteerde ze De tijdloze op Canvas.</p>
+            <p class="lg:text-lg lg:text-right">Nog zo’n mooie en bekende StuBru stem! Michèle neemt regelmatig het ochtendblok voor haar rekening, en presenteert inmiddels elke weekdag haar <strong>Fanclub</strong>. Recent maakte ze de sprong naar televisie en presenteerde ze De tijdloze op Canvas.</p>
 
         </div>
 
@@ -49,7 +49,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Xavier Taveirne</h3>
 
-            <p class="lg:text-lg text-right lg:text-left">Xavier is journalist, presentator, nieuwslezer en slimste mens. Hij werkte als radiopresentator voor Radio 1 en Radio 2, maar is vooral gekend van Het Journaal en Laat op Eén. Nochtans is hij naar eigen zeggen “voor altijd van de radio”, hij voegt het woord bij de daad als radiohost bij Radio Mariteam.</p>
+            <p class="lg:text-lg text-right lg:text-left">Xavier is een voorname en bekende VRT-stem. Hij is journalist, presentator, TV-maker, nieuwslezer en slimste mens. Hij presenteert op dit moment <strong>De ochtend</strong> op Radio 1 en is ook een van de gezichten van Het Journaal op VRT. </p>
 
         </div>
 
@@ -67,7 +67,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Joris Brys</h3>
 
-            <p class="lg:text-lg lg:text-right">Joris is radiopresentator en sportjournalist. Hij werkte voor VIER en Play Sports, maar is nu vooral actief als radiohost voor Studio Brussel. Hij presenteert daar elke voormiddag van de werkweek.</p>
+            <p class="lg:text-lg lg:text-right">Joris is the new kid on the block. Hij wierp zich de voorbije 2 jaar op als een van de dragers van Studio Brussel. Je kan z’n spontane manier van presenteren ook bewonderen op VIER en Play Sports. </p>
 
         </div>
 
@@ -85,7 +85,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Dorien Leyers</h3>
 
-            <p class="text-base lg:text-lg text-right lg:text-left">Dorien is presentatrice en moderator met een eindeloze passie voor events en entertainment. Ze presenteerde en modereerde onder andere voor BMW, NN, Umicore en dat doet ze door haar opleiding vloeiend in vier talen.</p>
+            <p class="text-base lg:text-lg text-right lg:text-left">Dorien is presentatrice en moderator met een eindeloze passie voor events en entertainment. Als vlotte duizendpoot kan ze als geen ander een publiek aanspreken, altijd met een lach, soms met een knipoog. </p>
 
         </div>
 
@@ -103,7 +103,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Linde Merckpoel</h3>
 
-            <p class="lg:text-lg lg:text-right">Linde Merckpoel was radiopresentatrice bij Studio Brussel. Ze was jarenlang actief voor de zender en presenteerde talloze programma’s. Ze waagde zich na een uitgebreide radiocarrière aan het vloggersschap. Na haar wekelijkse segment Linde Vlogt voor Studio Brussel, maakt ze momenteel vlogs voor Eén. Voor Radio Mariteam gaat ze op pad als vliegende reporter.</p>
+            <p class="lg:text-lg lg:text-right">Linde Merckpoel was jarenlang dé stem en het gezicht van Studio Brussel. Na haar mooie radiocarrière waagde ze zich, als liefhebber van de <strong>nieuwe media</strong>, aan het vloggerschap. Linde vlogt voor verschillende kanalen van VRT. Voor Radio Mariteam gaat ze op pad als vliegende reporter.</p>
 
         </div>
 
@@ -121,7 +121,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Ine Beyen</h3>
 
-            <p class="text-base lg:text-lg text-right lg:text-left">Ine Beyen is ex-profwielrenster en bleef ook na haar carrière vertoeven in de sportwereld. Ze vond haar weg naar het maken van videoreportages, zowel voor online platforms als voor de televisie. Maar telkens met een link òf een knipoog naar de sport. Bij het grote publiek werd ze bekend door haar videorubriek in het populaire Eén programma: Vive le Vélo! Voor Radio Mariteam is Ine fietsreporter: ze volgt het peloton tussen Antwerpen en Brugge.</p>
+            <p class="text-base lg:text-lg text-right lg:text-left">Ine Beyen is ex-profwielrenster en bleef ook na haar carrière vertoeven in de sportwereld. Ze maakt videoreportages, zowel voor onlineplatforms als voor televisie. Bij het grote publiek werd ze bekend door haar videorubriek in het populaire Eén programma <strong>Vive le Vélo</strong>. Voor Radio Mariteam is Ine fietsreporter. Ze volgt een  pelotonnetje van werknemers tussen Port of Antwerp en Port of Zeebrugge.</p>
 
         </div>
 
@@ -139,7 +139,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Nico Mattan</h3>
 
-            <p class="lg:text-lg lg:text-right">Nico Mattan is ex-profwielrenner en bleef actief in de wielerwereld als ploegleider en adviseur. Zijn carrière bracht hem van het beklimmen van de Kwaremont naar het ambassadeurschap van het Kwaremontbier. Tijdens de uitzending van Radio Mariteam trekt Nico er met zijn expertise op uit en volgt hij het fietserspeloton tussen Brugge en Antwerpen.</p>
+            <p class="lg:text-lg lg:text-right">Nico Mattan is een populaire ex-profwielrenner en bleef actief in de wielerwereld als ploegleider en adviseur. Zijn carrière bracht hem van het beklimmen van de Kwaremont naar het ambassadeurschap van het Kwaremontbier. Ook hij zal op z’n eigen, onnavolgbare manier verslag uitbrengen van de <strong>Radio Mariteam</strong> fietsrit. </p>
 
         </div>
 

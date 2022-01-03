@@ -8,8 +8,8 @@
 
     <h3 class="text-4xl mt-10 mb-5">Info</h3>
 
-    <p>Donderdag 27 januari maken radio hosts als Michele Cuvelier, Xavier Taveirne en Linde Merckpoel een hele dag live radio vanuit twee studio’s: één in Antwerpen en één in Zeebrugge. Radio Mariteam slaat de brug tussen de werknemers van beide havens tijdens de live-uitzending. Met hun vakmanschap leren de hosts de collega’s van Antwerpen en Zeebrugge kennen en zorgen ze voor de ideale soundtrack tijdens jouw werkdag. Tijdens de studio-uitzendingen gaan reporters op zoek naar de leukste anekdotes, passies en verhalen van Port of Antwerp-Bruges medewerkers. </p>
+    <p>Donderdag 27 januari kunnen alle werknemers van Port of Antwerp & Port of Zeebrugge luisteren naar Radio Mariteam. De radiomarathon (10u-22u) wordt gepresenteerd door bekende en professionele hosts die de brug slaan tussen onze 2 havens. Onder andere Xavier Taveirne (Radio1) en Michèle Cuvelier (StuBru)  zullen radio brengen die even interessant als plezant is. Terwijl zij muziek, spellen en interviews lanceren vanuit de studio’s in Antwerpen en Zeebrugge duikt vliegende reporter Linde Merckpoel achter onze schermen en leert ze enkele werknemers kennen. Ex-wielrenners Nico Mattan en Ine Beyen zijn dan weer de deskundige en vlotte begeleiders van ons fietspeloton. Stof genoeg dus voor een bijzondere en entertainende Radio Mariteam! </p>
 
-    <p>Als kers op de taart maken twee fietspelotons de oversteek tussen beide havens, zij worden gevolgd door fietsreporters Ine Beyen en Nico Mattan. Save the date en vraag jouw favoriete plaatjes aan. Dat kan digitaal via de website of via één van de vele postbussen op jouw werklocatie.</p>
+    <p>Zet <strong>Radio Mariteam</strong> alvast in vette letters in je agenda op 27 januari. Aarzel intussen niet om jouw favoriete song aan te vragen. Wil je die aan iemand opdragen of hangt er een verhaal aan vast, laat het ons weten! </p>
 
 </div>
