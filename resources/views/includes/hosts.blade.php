@@ -1,6 +1,8 @@
 <div class="flex flex-col" id="hosts">
 
-    <div class="lg:flex flex-row-reverse">
+    <h3 class="text-5xl mt-10 mb-5">Hosts</h3>
+
+    <div class="lg:flex -mt-10 flex-row-reverse">
 
         <figure class="md:flex md:justify-end lg:w-4/12 lg:translate-top translate-right">
 
@@ -121,7 +123,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 text-right lg:text-left">Ine Beyen</h3>
 
-            <p class="text-base lg:text-lg text-right lg:text-left">Ine Beyen is ex-profwielrenster en bleef ook na haar carrière vertoeven in de sportwereld. Ze maakt videoreportages, zowel voor onlineplatforms als voor televisie. Bij het grote publiek werd ze bekend door haar videorubriek in het populaire Eén programma ‘Vive le Vélo’. Voor Radio Mariteam is Ine fietsreporter. Ze volgt een  pelotonnetje van werknemers tussen Port of Antwerp en Port of Zeebrugge.</p>
+            <p class="text-base lg:text-lg text-right lg:text-left">Ine Beyen is ex-profwielrenster en bleef ook na haar carrière vertoeven in de sportwereld. Ze maakt videoreportages, zowel voor onlineplatforms als voor televisie. Bij het grote publiek werd ze bekend door haar videorubriek in het populaire Eén programma ‘Vive le Vélo’. Voor Radio Mariteam is Ine fietsreporter. Ze volgt een pelotonnetje van werknemers van Port of Antwerp naar Port of Zeebrugge.</p>
 
         </div>
 
@@ -139,7 +141,7 @@
 
             <h3 class="text-2xl lg:text-4xl lg:mt-16 mb-5 lg:text-right">Nico Mattan</h3>
 
-            <p class="lg:text-lg lg:text-right">Nico Mattan is een populaire ex-profwielrenner en bleef actief in de wielerwereld als ploegleider en adviseur. Zijn carrière bracht hem van het beklimmen van de Kwaremont naar het ambassadeurschap van het Kwaremontbier. Ook hij zal op z’n eigen, onnavolgbare manier verslag uitbrengen van de ‘Radio Mariteam’ fietsrit. </p>
+            <p class="lg:text-lg lg:text-right">Nico Mattan is een populaire ex-profwielrenner en bleef actief in de wielerwereld als ploegleider en adviseur. Zijn carrière bracht hem van het beklimmen van de Kwaremont naar het ambassadeurschap van het Kwaremontbier. Ook hij zal op z’n eigen, onnavolgbare manier verslag uitbrengen van de ‘Radio Mariteam’ fietsrit die start in Zeebrugge. </p>
 
         </div>
 
