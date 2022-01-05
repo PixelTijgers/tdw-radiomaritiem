@@ -32102,7 +32102,7 @@ nav.mobile div figure img {
 @media (min-width: 320px) {
   nav.mobile div figure img.poa-small {
     height: 70px !important;
-    width: 100% !important;
+    width: auto !important;
   }
 }
 
