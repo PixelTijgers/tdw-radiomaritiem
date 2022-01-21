@@ -15,30 +15,34 @@
 
 </div>
 -->
-<div id="countdown">
+<h3 class="text-center text-4xl mt-10 mb-6">Nog maar:</h3>
 
-    <div class="cd-box">
-        <p class="numbers days">00</p><br>
+<div id="countdown" class="lg:px-16">
+
+    <div class="cd-box w-1/4">
+        <p class="numbers days text-5xl lg:text-8xl">00</p>
         <p class="strings timeRefDays">dagen</p>
     </div>
 
-    <div class="cd-box">
-        <p class="numbers hours">00</p><br>
+    <div class="cd-box w-1/4 mx-3">
+        <p class="numbers hours text-5xl lg:text-8xl">00</p>
         <p class="strings timeRefHours">uren</p>
     </div>
 
-    <div class="cd-box">
-        <p class="numbers minutes">00</p><br>
+    <div class="cd-box w-1/4 mr-3">
+        <p class="numbers minutes text-5xl lg:text-8xl">00</p>
         <p class="strings timeRefMinutes">minuten</p>
     </div>
 
-    <div class="cd-box">
-        <p class="numbers seconds">00</p><br>
+    <div class="cd-box w-1/4">
+        <p class="numbers seconds text-5xl lg:text-8xl">00</p>
         <p class="strings timeRefSeconds">seconden</p>
     </div>
 
 </div>
 <!-- end div#countdown -->
+
+<h4 class="text-center text-2xl mb-10 mt-8">Tot Radio Mariteam</h4>
 
   <script>
 
@@ -63,10 +67,10 @@
   				minutes = Math.floor(seconds / 60);
   				seconds -= minutes * 60;
   				//
-  				days == 1 ? thisEl.find(".timeRefDays").text("Days") : thisEl.find(".timeRefDays").text("Days");
-  				hours == 1 ? thisEl.find(".timeRefHours").text("Hours") : thisEl.find(".timeRefHours").text("Hours");
-  				minutes == 1 ? thisEl.find(".timeRefMinutes").text("Minutes") : thisEl.find(".timeRefMinutes").text("Minutes");
-  				seconds == 1 ? thisEl.find(".timeRefSeconds").text("Seconds") : thisEl.find(".timeRefSeconds").text("Seconds");
+  				days == 1 ? thisEl.find(".timeRefDays").text("dagen") : thisEl.find(".timeRefDays").text("dagen");
+  				hours == 1 ? thisEl.find(".timeRefHours").text("uren") : thisEl.find(".timeRefHours").text("uren");
+  				minutes == 1 ? thisEl.find(".timeRefMinutes").text("minuten") : thisEl.find(".timeRefMinutes").text("minuten");
+  				seconds == 1 ? thisEl.find(".timeRefSeconds").text("seconden") : thisEl.find(".timeRefSeconds").text("seconden");
   				//
   				if(r["format"] == "on"){
   					days = String(days).length >= 2 ? days : "0" + days;

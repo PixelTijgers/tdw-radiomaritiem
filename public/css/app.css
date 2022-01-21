@@ -32165,6 +32165,31 @@ footer {
   background: #FFF;
 }
 
+#countdown {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#countdown .cd-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#countdown .cd-box p.numbers {
+  font-family: "ModeratBold";
+  margin: 0;
+}
+
+#countdown .cd-box p.days {
+  color: #E4032C;
+}
+
+#countdown .cd-box p.strings {
+  font-family: "ModeratRegular";
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
