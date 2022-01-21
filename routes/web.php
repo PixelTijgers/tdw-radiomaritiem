@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 // Page route.
 Route::get('/', 'App\Http\Controllers\ChatsController@index');
+Route::get('/stream', 'App\Http\Controllers\ChatsController@indexTwo');
+Route::get('/livestream', 'App\Http\Controllers\ChatsController@indexThree');
 Route::get('/disclaimer', function() {
     return view('disclaimer');
 });

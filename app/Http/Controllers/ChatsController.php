@@ -71,6 +71,16 @@ class ChatsController extends Controller
         }
     }
 
+    public function indexTwo()
+    {
+        return view('index2');
+    }
+
+    public function indexThree()
+    {
+        return view('index3');
+    }
+
     /**
      * Get the user.
      *
