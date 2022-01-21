@@ -55,8 +55,6 @@
 
         </div>
 
-        @include('includes.request')
-
         @include('includes.info')
 
         @include('includes.hosts')
