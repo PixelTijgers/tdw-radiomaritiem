@@ -38,19 +38,13 @@
 
         <div class="flex items-start mt-10" style="position: relative;">
 
-            <div class="w-8/12">
+            <div class="w-full">
 
                 <div class="embed-container">
 
-                    <iframe src="https://player.vimeo.com/video/668599236?h=a2388f5b02&color=e4022c&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/669165093?h=4db3c6f211&color=f90202&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
-
-            </div>
-
-            <div class="w-4/12 h-100" style="position: absolute; right: 0; bottom: 0; top: 0;">
-
-                <iframe src="https://vimeo.com/live-chat/668599236/" width="100%" height="100%" frameborder="0"></iframe>
 
             </div>
 

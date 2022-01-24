@@ -24,7 +24,7 @@
     <!-- Admin scripts -->
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
     <script src="{{ asset('js/vendor/jquery.nav.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js?v=2') }}"></script>
 </head>
 <body>
 
