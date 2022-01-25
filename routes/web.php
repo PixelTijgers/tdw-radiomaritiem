@@ -14,23 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Page route.
-Route::get('/', 'App\Http\Controllers\ChatsController@index');
-Route::get('/stream', 'App\Http\Controllers\ChatsController@indexTwo');
-Route::get('/livestream', 'App\Http\Controllers\ChatsController@indexThree');
-Route::get('/disclaimer', function() {
-    return view('disclaimer');
+Route::redirect('/', '/be');
+
+Route::get('/be', 'App\Http\Controllers\HomeControllerBE@index');
+Route::get('/be/disclaimer', function() {
+    return view('be.disclaimer');
 });
 
-// Login route.
-Route::post('login', 'App\Http\Controllers\ChatsController@login');
-
-// Request route.
-Route::get('request', 'App\Http\Controllers\RequestController@index');
-
-// Message routes.
-Route::get('messages', 'App\Http\Controllers\ChatsController@fetchMessages');
-Route::post('messages', 'App\Http\Controllers\ChatsController@sendMessage');
-
-// Export routes.
-Route::get('users/export/','App\Http\Controllers\ChatsController@exportUsers');
-Route::get('chat/export/','App\Http\Controllers\ChatsController@exportMessages');
+Route::get('/fr', 'App\Http\Controllers\HomeControllerFR@index');
+Route::get('/fr/disclaimer', function() {
+    return view('fr.disclaimer');
+});

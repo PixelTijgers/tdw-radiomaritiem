@@ -32,17 +32,15 @@
 
     <div class="panel">
 
-        @include('includes.mobile')
+        @include('be.includes.mobile')
 
-        @include('includes.header')
+        @include('be.includes.header')
 
-        @include('includes.player')
+        @include('be.includes.player')
 
-        @include('includes.request')
+        @include('be.includes.request')
 
-        @include('includes.info')
-
-        @include('includes.hosts')
+        @include('be.includes.hosts')
 
         <div class="scrollTop shadow-lg flex items-center justify-center">
             <span><a href="#"><i class="fas fa-angle-double-up"></i></a></span>
@@ -52,7 +50,7 @@
 
 </main>
 
-@include('includes.footer', [
+@include('be.includes.footer', [
     'companyName' => env('CLIENT_NAME')
 ])
 </body>

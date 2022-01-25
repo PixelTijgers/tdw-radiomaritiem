@@ -42,4 +42,4 @@
 </div>
 <!-- end div#countdown -->
 
-<h4 class="text-center text-2xl mb-10 mt-8">Tot Radio Mariteam</h4>
+<h4 class="text-center text-2xl mb-10 mt-8">Tot Radio Kone</h4>

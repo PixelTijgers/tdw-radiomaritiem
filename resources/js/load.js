@@ -176,7 +176,7 @@ module.exports = {
         		}
         		//
         		$("#countdown").countdown({
-        			date: "27 Januari 2022 10:00:00", // change date/time here - do not change the format!
+        			date: "25 February 2022 07:00:00", // change date/time here - do not change the format!
         			format: "on"
         		});
         	});

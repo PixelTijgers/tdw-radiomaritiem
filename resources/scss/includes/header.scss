@@ -28,6 +28,13 @@ header {
                     &:first-of-type {
                         margin-left: 0;
                     }
+
+                    &.image {
+                        &:hover {
+                            background: none;
+                            box-shadow: none;
+                        }
+                    }
                 }
             }
         }

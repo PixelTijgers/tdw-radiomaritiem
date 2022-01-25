@@ -32,23 +32,23 @@
         <a href="{{ url()->previous() }}" class="button">Ga terug</a>
 
         <h3 class="md:mt-16 md:mb-3 md:text-5xl">Disclaimer</h3>
-        <p>Laatste update: 4 januari 2022</p>
+        <p>Laatste update: 25 januari 2022</p>
 
-        <h4 class="md:mt-5 md:mb-3 md:text-xl">Privacy policy voor Port of Antwerpen, eigenaar van Radio Mariteam</h4>
+        <h4 class="md:mt-5 md:mb-3 md:text-xl">Privacy policy voor Kone, eigenaar van Radio Kone</h4>
 
-            <p>Het waarborgen van de privacy van bezoekers van Radio Mariteam is een belangrijke taak voor ons. Daarom beschrijven we in onze privacy policy welke informatie we verzamelen en hoe we deze informatie gebruiken.</p>
+            <p>Het waarborgen van de privacy van bezoekers van Radio Kone is een belangrijke taak voor ons. Daarom beschrijven we in onze privacy policy welke informatie we verzamelen en hoe we deze informatie gebruiken.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Toestemming</h4>
 
-            <p>Door de informatie en de diensten op Radio Mariteam te gebruiken, gaat u akkoord met onze privacy policy en de voorwaarden die wij hierin hebben opgenomen.</p>
+            <p>Door de informatie en de diensten op Radio Kone te gebruiken, gaat u akkoord met onze privacy policy en de voorwaarden die wij hierin hebben opgenomen.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Vragen</h4>
 
-            <p>Als u meer informatie wilt ontvangen, of vragen hebt over de privacy policy van Port of Antwerpen en specifiek Radio Mariteam, kun u ons benaderen via e-mail. Ons e-mailadres is <a href="mailto:help@radiomariteam.be">info@radiomariteam.be</a>.</p>
+            <p>Als u meer informatie wilt ontvangen, of vragen hebt over de privacy policy van Kone en specifiek Radio Kone, kun u ons benaderen via e-mail. Ons e-mailadres is <a href="mailto:help@onekoneteam.be">info@onekoneteam.be</a>.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Gebruik van cookies</h4>
 
-            <p>Radio Mariteam plaatst cookies bij bezoekers. Dat doen we om informatie te verzamelen over de pagina’s die gebruikers op onze website bezoeken, om bij te houden hoe vaak bezoekers terug komen en om te zien welke pagina’s het goed doen op de website. Ook houden we bij welke informatie de browser deelt.</p>
+            <p>Radio Kone plaatst cookies bij bezoekers. Dat doen we om informatie te verzamelen over de pagina’s die gebruikers op onze website bezoeken, om bij te houden hoe vaak bezoekers terug komen en om te zien welke pagina’s het goed doen op de website. Ook houden we bij welke informatie de browser deelt.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Cookies uitschakelen</h4>
 
@@ -56,13 +56,13 @@
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Cookies van derde partijen</h4>
 
-            <p>Het is mogelijk dat derde partijen, zoals Google, op onze website adverteren of dat wij gebruik maken van een andere dienst. Daarvoor plaatsen deze derde partijen in sommige gevallen cookies. Deze cookies zijn niet door Radio Mariteam te beïnvloeden.</p>
+            <p>Het is mogelijk dat derde partijen, zoals Google, op onze website adverteren of dat wij gebruik maken van een andere dienst. Daarvoor plaatsen deze derde partijen in sommige gevallen cookies. Deze cookies zijn niet door Radio Kone te beïnvloeden.</p>
 
         <h4 class="md:mt-5 md:mb-3 md:text-xl">Contact</h4>
 
             <p>Voor specifieke vragen kun je ook contact opnemen.</p>
 
-            <a class="flex mt-5" href="mailto:info@radiomariteam.be">Contacteer ons</a>
+            <a class="flex mt-5" href="mailto:info@onekoneteam.be">Contacteer ons</a>
 
     </div>
 

@@ -24,7 +24,7 @@
     <!-- Admin scripts -->
     <script src="{{ asset('js/vendor/jquery.min.js') }}"></script>
     <script src="{{ asset('js/vendor/jquery.nav.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/app.js?v=2') }}"></script>
 </head>
 <body>
 
@@ -32,27 +32,15 @@
 
     <div class="panel">
 
-        @include('includes.mobile')
+        @include('fr.includes.mobile')
 
-        @include('includes.header')
+        @include('fr.includes.header')
 
-        <div class="flex items-start mt-10" style="position: relative;">
+        @include('fr.includes.player')
 
-            <div class="w-full">
+        @include('fr.includes.request')
 
-                <div class="embed-container">
-
-                    <iframe src="https://player.vimeo.com/video/669165093?h=4db3c6f211&color=f90202&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        @include('includes.info')
-
-        @include('includes.hosts')
+        @include('fr.includes.hosts')
 
         <div class="scrollTop shadow-lg flex items-center justify-center">
             <span><a href="#"><i class="fas fa-angle-double-up"></i></a></span>
@@ -62,7 +50,7 @@
 
 </main>
 
-@include('includes.footer', [
+@include('fr.includes.footer', [
     'companyName' => env('CLIENT_NAME')
 ])
 </body>
